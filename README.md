@@ -1,10 +1,14 @@
 A reference implementation of autocomplete using react, rxjs, apollo, redis and mongodb
 
 ## Features
+![Search Result](https://github.com/BigFatDog/autocomplete/blob/develop/screenshots/search-res.png)
 
 ## Quick Reference
 * Search backend: [https://github.com/BigFatDog/autocomplete/tree/master/server/api/search](https://github.com/BigFatDog/autocomplete/tree/master/server/api/search)
 * Search frontend [https://github.com/BigFatDog/autocomplete/blob/master/app/containers/Search/index.js](https://github.com/BigFatDog/autocomplete/blob/master/app/containers/Search/index.js)
+
+## 
+
 
 ## Installation
 This instructions are based on MacOS
