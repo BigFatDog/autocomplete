@@ -1,6 +1,6 @@
 A reference implementation of autocomplete using react, rxjs, apollo, redis and mongodb
-![Architecture](https://github.com/BigFatDog/autocomplete/blob/develop/screenshots/architecture.jpeg)
-![Search Result](https://github.com/BigFatDog/autocomplete/blob/develop/screenshots/search-res.png)
+![Architecture](https://github.com/BigFatDog/autocomplete/blob/master/screenshots/architecture.jpeg)
+![Search Result](https://github.com/BigFatDog/autocomplete/blob/master/screenshots/search-res.png)
 
 ## Web application front-end
 - React: Search page is pure function component. Component is written in react hooks
@@ -21,9 +21,9 @@ A reference implementation of autocomplete using react, rxjs, apollo, redis and 
 ## Data Structure: Prefix Hash Tree
 > Images are from [prefixy](https://prefixy.github.io)
 
-![Prefix Hash Tree](https://github.com/BigFatDog/autocomplete/blob/develop/screenshots/prefix-hash-tree.png)
+![Prefix Hash Tree](https://github.com/BigFatDog/autocomplete/blob/master/screenshots/prefix-hash-tree.png)
 Big-O summary
-![Big O Summary](https://github.com/BigFatDog/autocomplete/blob/develop/screenshots/big-o-summary.png)
+![Big O Summary](https://github.com/BigFatDog/autocomplete/blob/master/screenshots/big-o-summary.png)
 ## Data MapReduce
 N/A
 
