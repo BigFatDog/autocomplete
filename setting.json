@@ -1,0 +1,10 @@
+{
+  "apolloLogging": true,
+  "apolloEngineKey": null,
+  "graphqlUrl": "http://localhost:3010/graphql",
+  "wsURI": "ws:localhost:5000/graphql",
+  "wsPort": 5000,
+  "mongoUrl": "mongodb://localhost:27017/autocomplete",
+  "SECRET": "Big_Fat_Dog",
+  "redisUrl": "redis://localhost:6379/"
+}
