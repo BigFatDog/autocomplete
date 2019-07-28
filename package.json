@@ -1,6 +1,6 @@
 {
   "name": "autocomplete",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "A reference implementation of autocomplete, using react, rxjs, apollo, redis and mongo.",
   "repository": {
     "type": "git",
