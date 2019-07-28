@@ -1,7 +1,9 @@
 import merge from 'lodash/merge';
 import pubsub from './pubsub';
 
-const ApiList = [];
+import Posts from './posts';
+
+const ApiList = [Posts];
 
 const apiSchema = {
   typeDefs: ApiList.map(d => d.typeDefs),

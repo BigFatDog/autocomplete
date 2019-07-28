@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import SearchIcon from '@material-ui/icons/Search';
 import HistoryIcon from '@material-ui/icons/History';
-import BatteryCharging20Icon from '@material-ui/icons/BatteryCharging20';
-
 import DeleteForeverOutlinedIcon from '@material-ui/icons/DeleteForeverOutlined';
 import IconButton from '@material-ui/core/IconButton';
 import ListItem from '@material-ui/core/ListItem';
@@ -10,7 +8,6 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Paper from '@material-ui/core/Paper';
 import InputBase from '@material-ui/core/InputBase';
-
 import { fromEvent, from } from 'rxjs';
 import {
   map,
@@ -29,6 +26,9 @@ const Search = props => {
   const searchRef = useRef(null);
   const [suggestions, setSuggestions] = useState([]);
   const [latestInput, setLatestInput] = useState(null);
+  // useEffect(() => {
+  //   get('/api/completions/dump')
+  // }, [])
 
   useEffect(() => {
     if (searchRef !== null) {
@@ -142,18 +142,6 @@ const Search = props => {
           );
         })}
       </Paper>
-
-      <IconButton
-        aria-label="seed-sample-data"
-        style={{
-          position: 'absolute',
-          bottom: 70,
-          right: 50
-        }}
-        onClick={() => get('/api/completions/dump')}
-      >
-        <BatteryCharging20Icon />
-      </IconButton>
     </div>
   );
 };
