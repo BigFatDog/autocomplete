@@ -1,5 +1,6 @@
 A reference implementation of autocomplete using react, rxjs, apollo, redis and mongodb
 ![Architecture](https://github.com/BigFatDog/autocomplete/blob/develop/screenshots/architecture.jpeg)
+![Search Result](https://github.com/BigFatDog/autocomplete/blob/develop/screenshots/search-res.png)
 
 ## Web application front-end
 - React: Search page is pure function component. Component is written in react hooks
@@ -25,10 +26,6 @@ Big-O summary
 ![Big O Summary](https://github.com/BigFatDog/autocomplete/blob/develop/screenshots/big-o-summary.png)
 ## Data MapReduce
 N/A
-
-# Screenshots
-![Search Result](https://github.com/BigFatDog/autocomplete/blob/develop/screenshots/search-res.png)
-
 
 
 # Quick Reference
