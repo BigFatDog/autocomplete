@@ -59,3 +59,8 @@ npm run start
 6. Register a user in register page
 
 7. seed sample data to mongodb and redis by clicking the battery button at the bottom right of search page
+
+# Credits
+- [Prefixy](https://prefixy.github.io/)
+- [Wreck the Web with Observables: How to make an Autocomplete Search with RxJS](https://medium.com/@rachel.poulos/wreck-the-web-with-observables-how-to-make-an-autocomplete-search-with-rxjs-bd588ad91b1b)
+- [Learn-RxJS: Typeahead](https://www.learnrxjs.io/recipes/type-ahead.html)
