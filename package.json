@@ -98,7 +98,7 @@
     "dotenv": "^8.0.0",
     "enhanced-resolve": "^4.1.0",
     "esm": "^3.2.25",
-    "express": "4.17.1",
+    "express": "4.17.3",
     "fontfaceobserver": "2.1.0",
     "graphql": "^14.4.2",
     "graphql-auth": "^0.2.6",
